@@ -50,12 +50,6 @@ class RaceMap extends React.Component {
 						'line-join': 'round',
 						'line-cap': 'round'
 					},
-					"paint": {
-						"fill-extrusion-color": "#f00",
-						"fill-extrusion-base": 0.5,
-						"fill-extrusion-opacity": 0.5,
-						"fill-extrusion-height": ["get", "height"]
-					}/*
 					'paint': {
 						'line-color': 'red',
 						'line-width': 14,
@@ -78,7 +72,7 @@ class RaceMap extends React.Component {
 							1,
 							'red'
 						]
-					}*/
+					}
 				}
 			);
 		});
